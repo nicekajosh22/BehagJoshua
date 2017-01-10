@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrelimExam</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="course">
+        <item >BSIT</item>
+        <item >HRM</item>
+        <item >CRIM</item>
+        <item >BSBA</item>
+         <item >BSCOE</item>
+         <item >AB</item>
+        
+         
+        
+        <item />
+    </string-array>
+
+</resources>
