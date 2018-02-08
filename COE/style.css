@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	line-height: 12px;
+}
+
+main {
+	width: 900px;
+	border: 1px solid black;
+	margin: 50px auto;
+	padding: 20px 30px;
+	font-weight: 300;
+}
+
+section {	
+	margin: 20px 0;
+}
+
+/*h4 {
+	margin-bottom: 10px;
+}
+*/
+a, strong {
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	background-color: skyblue;
+	color: black;
+
+}
+
+small {
+	font-size: 10px;
+}
+
+input {
+	width: 100%;
+	height: 50%;
+	padding: 0px;
+	border: 0;
+}
+
+
+/*.logo {
+	width: 150px;
+}
+*/
+.subheading {
+	display: block;
+	color: #000;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/*
+ * Layouts
+ */
+
+div.row  {
+	height: 50px;
+}
+
+h4 + div.row, h4 + div.row input {
+	background-color: #DEEAF6;
+}
+
+h4 + div.row {
+	text-align: center;
+}
+
+div.row div {
+	float: left;
+	height: 50px;
+	border: 1px solid black;
+}
+
+div.row div:first-child {
+	padding: 10px;
+}
+
+.col-8 {
+	width: 100%;
+}
+
+.col-4,.col-3 {
+	width: 25%;
+}
+
+.col-2 {
+	width: 16.66666666%
+}
+
+.col-1 {
+	width: 12.5%;
+	padding: 10px;
+}
+
+
+/*
+ * Helper Classes
+ */
+
+.row:after, .clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
