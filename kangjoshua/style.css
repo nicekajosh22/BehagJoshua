@@ -1,0 +1,217 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Calibri;
+}
+
+header{
+	margin-top:20px;
+
+}
+
+main{
+	margin:50px auto;
+	border:1px solid black;
+	padding:20px 30px;
+	font-weight:300;
+	width:900px;
+}
+h4{
+	font-size:13px;
+	font-weight:300;
+	text-align: center;
+}
+
+/*class*/
+.table:after, .clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+input{
+	width:100%;
+	height:100%;
+	border:none;
+	
+}
+
+.blue{
+	 background-color:rgb(219,228,240);
+}
+.input1{
+	border-bottom:1px solid black;
+	width:35%;
+	margin-left:33%;
+	text-align: center;
+
+}
+/*col1*/
+div .col1{
+	margin-top:20px;
+	margin-left:38%;
+	width:25%;
+}
+div .col1 strong{
+	font-weight:bold;
+	font-size:15px;
+	letter-spacing:1px;
+}
+/*col2*/
+div.col2{
+	margin-top:20px;
+	border:1px solid black;
+	border-radius:5px;
+	padding:5px;
+}
+div .col2 p{
+	font-size:11px;
+	font-weight:bold;
+}
+div .col3-1{
+	margin-top:10px;
+	margin-left:15px;
+	margin-bottom:15px;
+	width:30%;
+}
+div .col3-1 input{
+	border-bottom:1px solid black;
+	width:130px;
+	}
+div .col3{
+	margin-top:10px;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+div .col3 p, div .col3-1 p{
+	font-size:13px;
+	font-weight: bold;
+}
+div .col3 .col3p2{
+	margin-top:10px;
+	font-size:13px;
+	font-weight:300;
+}
+div .col3 input{
+	border-bottom:1px solid black;
+	width:30%;
+}
+
+div.row input{
+	width:100%;
+	height:100%;
+	border:none;
+}
+div.row div {
+	float: left;
+	border:1px solid black;
+}
+div .row p{
+	text-align: center;
+}
+div .row .col-1{
+	width:20%;
+
+}
+div .col-1 p, div .col-2 p{
+	font-weight:bold;
+	font-size:12px;
+}
+div .row .col-2{
+	width:30%;
+}
+.space{
+	margin-bottom:30%;
+}
+div .col4{
+	margin-left:20%;
+}
+div .col4 .input3{
+	width:35%;
+	border-bottom:1px solid black;
+
+}
+div .col4 #col4p1{
+	font-size:12px;
+	font-weight:bold;
+	margin-left:7%;
+}
+div .col4 #col4p2{
+	font-size:10px;
+	font-weight:bold;
+	margin-left:7%;
+}
+div .col5{
+	margin-left:70%;
+}
+div .col5 p{
+	font-size:10px;
+	font-weight: bold;
+}
+div .col5 input{
+	width:20%;
+	border-bottom:1px solid black;
+}
+div .col6{
+	margin-left:5%;
+	margin-top:5px;
+}
+ div .col6 input{
+ 	width:15%;
+ 	border-bottom:1px solid black;
+ }
+div .col6 p, div .col7 p,div .col7-1 p{
+	font-size:12px;
+	font-weight:bold;
+
+}
+
+div .col7,div .col7-1{
+	margin-left:5%;
+	width:55%;
+}
+div .col7-1{
+
+	margin-top: 20px;
+}
+
+a.print{
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    margin-top:10px;
+    margin-left:75%;
+    background: #dc143c;
+    background: linear-gradient(#e3647e, #DC143C);
+    text-align: center;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    border: 1px solid #e3647e;
+}
+
+i.fa.fa-print{
+    margin-right: 5px;
+}
+a.print:hover{
+    background: linear-gradient(#DC143C, #e3647e)
+}
+.n1{
+	float: right;
+	margin-right: 75px;
+	margin-top:10px;
+	font-size: 15px;
+	
+}
+.n2{
+	float: right;
+	font-size: 15px;
+	margin-right: 50px
+	margin-top: 20px;
+
+}
+
